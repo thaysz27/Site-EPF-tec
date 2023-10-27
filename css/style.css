@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@300;600;900&family=Source+Code+Pro&display=swap');
+
+
+*{
+
+    margin: 0;
+}
+
+h1 {
+    font-size: 16px;
+    color: #E3E3E3;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 40px;
+    color: #E3E3E3;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 16px;
+    color: rgb(31, 31, 31);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-size: 14px;
+    color: #f1f1f1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+}
+
+.destaque {
+    color: #141414;
+    background-color: #FF9F20;
+}
+
+.navegacao {
+    background-color: rgb(27, 26, 26);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 110px;
+    position: fixed;
+    box-shadow: 0px -55px 100px 0px rgb(80, 255, 103);
+
+}
+
+.logomarca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 90px;
+    width: 30%;
+}
+
+.logomarca img{
+    width: 180px;
+}
+
+.menuabas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 70px;
+    
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.descricao_historia a,
+nav ul a {
+    color:#E3E3E3;
+    margin: 0 25px;
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+}
+
+.botaocontato {
+    background-color: #E3E3E3;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 8px 2px rgb(80, 255, 103);
+    transition: 2ms;
+}
+
+.botaocontato:focus{
+    position: relative;
+    top: 2px;
+    left: 2px;
+    box-shadow: 0px 0px 8px 2px #FF9F20;
+}
+
+.botaocontato2 {
+    color: #E3E3E3;
+    background-color: #141414;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 8px 2px rgb(80, 255, 103);
+    transition: 200ms;
+}
+
+.botaocontato2:focus{
+    position: relative;
+    top: 2px;
+    left: 2px;
+    box-shadow: 0px 0px 8px 2px rgb(80, 255, 103);
+}
+
+header {
+    height: 100vh;
+    background-image: url(imgs/back_home.jpg);
+    background-size: cover;
+    display: block;
+    justify-items: center;
+    align-items: center;
+    padding: 120px 50px 0 50px;
+}
+
+.frase_intro {
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.cards_intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.cards_intro img {
+    position: relative;
+    top: 20px;
+    left: 8px;
+    width: 140px;
+    margin: 10px;
+    border-radius: 46% 54% 76% 24%/15% 67% 33% 85%;
+    box-shadow: 1px 1px 5px 0;
+}
+
+.cards_intro h1 {
+    font-size: 14px;
+}
+
+.cards_intro .descricao{
+    text-align: left;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_text_intro h1{
+    font-size: 20px;
+    margin: 10px 0 0 8px;
+}
+
+.card_intro1,
+.card_intro2,
+.card_intro3 {
+    width: 360px;
+    height: 290px;
+    background-color: rgb(12, 12, 12);
+    padding: 8px 8px 10px 8px;
+    border-radius: 15px;
+    display: flex;
+    margin: 25px 15px 0 15px;
+    translate: 500ms;
+    box-shadow: 2px 2px 8px 2px rgb(12, 12, 12);
+}
+.card_intro1:hover {
+    box-shadow: 2px 2px 8px 2px rgb(80, 255, 103);
+    margin: 0px 15px 0 15px;
+}
+.card_intro2:hover {
+    box-shadow: 2px 2px 8px 2px rgb(80, 255, 103);
+    margin: 0px 15px 0 15px;
+}
+.card_intro3:hover {
+    box-shadow: 2px 2px 8px 2px rgb(80, 255, 103);
+    margin: 0px 15px 0 15px;
+}
+
+.historia {
+    background-color: rgb(164, 212, 155);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 150px 15px 150px;
+}
+
+.historia .titulo {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.historia p{
+    font-size: 14px;
+    color: #141414;
+    padding-bottom: 20px;
+}
+
+.conteudo_historia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.historia_esquerdo {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.historia .botaocontato2{
+    width: fit-content;
+    margin: 15px 0 15px 0;
+}
+
+.historia_direito {
+    width: 70%;
+}
