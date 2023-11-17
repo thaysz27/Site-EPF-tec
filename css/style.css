@@ -32,6 +32,7 @@ h3 {
     color: rgb(31, 31, 31);
     font-family: "Lato", sans-serif;
     font-weight: 400;
+    text-decoration: none;
 }
 
 p {
@@ -39,6 +40,7 @@ p {
     color: #f1f1f1;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    text-decoration: none;
 
 }
 
@@ -315,7 +317,7 @@ header {
 
 .ebooks {
     background-color: #141414;
-    padding: 100px 150px 150px 150px;
+    padding: 100px 150px 80px 150px;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -350,3 +352,123 @@ header {
     width: 200px;
 }
 
+
+/*INÍCIO FOOTER*/
+
+.footer {
+    height: 70px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 55px 5%;
+}
+
+.footer i {
+    font-size: 20px;
+    color:  #3e4747;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+}
+
+.footer p {
+    margin-top: 10px;
+    color: #3e4747;
+    font-family: Lato;
+}
+
+.footer .container {
+    height: 100px;
+    display: block;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 55px 5%;
+}
+
+/*CONTATO*/
+
+.container {
+    position: relative;
+    height: 730px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 8% 40px 8%;
+} 
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.left-side {
+    width: 50%;
+    padding: 30px;
+    background-color: #141414;
+    border-radius: 15px;
+    margin-right: 50px;
+    height: fit-content;
+}
+
+.left-side div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.left-side div i {
+    font-size: 24px;
+    margin-right: 20px;
+    color: white;
+}
+
+.left-side div p {
+    font-size: 18px;
+    color: white;
+}
+
+.right-side {
+    width: 50%;
+}
+
+.right-side input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 47px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: 1px solid #f1f1f1;
+    color: #32663a;
+    font-weight: lighter;
+}
+
+.right-side textarea {
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    color: #32663a;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 100%;
+    transition: 0.3s;
+    resize: none;
+}
+
+.right-side input:focus,
+.right-side textarea:focus {
+    border-color: #32663a;
+}
+
+.enviado {
+    background-color: rgb(255, 255, 255); /* Altere a cor de fundo para verde */
+    color: #32663a; /* Altere a cor do texto para branco */
+    cursor: default; /* Altere o cursor para padrão para indicar que não é mais clicável */
+}
+
+.mapa{
+    padding: 80px 0 40px 0;
+}

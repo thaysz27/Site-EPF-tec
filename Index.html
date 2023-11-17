@@ -2,6 +2,8 @@
 <html>
 <head>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
 </head>
 <body>
     <div class="navegacao">
@@ -249,14 +251,15 @@
 
     <!--Início sessão e-books-->
     <section class="ebooks" id="ebooks">
-        <h2 style="text-align: center; padding: 0 0 40px 0; font-size: 40px; color:#e3e3e3;">E-books</h2>
+        <h2 style="text-align: center; font-size: 40px; color:#e3e3e3;">E-books</h2>
+        <P style="padding: 10px 0 40px 0">Em breve disponíveis para download</P>
         <div class="row_ebooks">
             <div class="ebook_item">
                 <img src="imgs/ebooks/Ebook_CM.png">
                 <h3>Construção Modular</h3>
             </div>
             <div class="ebook_item">
-                <img src="imgs/ebooks/Ebook_BIM.png">
+                <img src="imgs/ebooks/Ebook_CMO.png">
                 <h3>Gerenciamento de Obras</h3>
             </div>
             <div class="ebook_item">
@@ -269,6 +272,56 @@
             </div>
         </div>
     </section>
+    <!--Início contato-->
+    <section class="contato" id="contato" style="background-image: url(imgs/back_textura.png);">
+        <div class="container" style="height: auto;">
+            <h2 style="text-align: center; padding: 30px 0 20px 0;">Entre em contato</h2>
+            <div class="info">
+                <div class="left-side">
+                    <div>
+                        <a href="https://www.google.com/maps/search/Rua+Dr.+Fernando+Allain,145+,+Espinheiro,+Recife+-+PE/@-8.0417866,-34.8914454,17z?entry=ttu"> <i class="fa-solid fa-location-dot"></i> </a>
+                        <a href="https://www.google.com/maps/search/Rua+Dr.+Fernando+Allain,145+,+Espinheiro,+Recife+-+PE/@-8.0417866,-34.8914454,17z?entry=ttu"> <p style="text-decoration: none; font-size: 18px;">R. Dr. Fernando Alain, 145 - Espinheiro, Recife - PE, 52021-140</p> </a>
+                    </div>
+                    <div>
+                        <a href="mailto:contato@epf.ind.br"> <i class="fa-regular fa-envelope"></i> </a>
+                        <a href="mailto:contato@epf.ind.br"> <p style="text-decoration: none; font-size: 18px;">contato@epf.ind.br</p> </a>
+                    </div>
+                    <div>
+                        <a href="#"> <i class="fa-solid fa-phone"></i> </a>
+                        <a href="#"> <p style="text-decoration: none; font-size: 18px;">(81) 3031-7803</p> </a>
+                    </div>
+                    <div>
+                        <a href="https://instagram.com/epf_engenharia?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"> <i class="fab fa-instagram"></i> </a>
+                        <a href="https://instagram.com/epf_engenharia?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"> <p style="text-decoration: none; font-size: 18px;">@epf_engenharia</p> </a>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <form action="https://api.staticforms.xyz/submit" method="post">
+                        <input type="text" name="name" placeholder="Nome" required>
+                        <input type="email" name="email" placeholder="E-mail" required>
+                        <textarea name="message" cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
+                        <button type="submit" class="botaocontato"><p style="color: rgb(27, 26, 26);">Enviar mensagem</p></button>
+
+                        <input type="hidden" name="accessKey" value="140881d2-0fd6-49a1-a4a4-073ce843a4f3">
+                        <input type="hidden" name="redirectTo" value="https://127.0.0.1:5500/obrigado.html">
+                    </form>
+                </div>
+            </div>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.5772403189217!2d-34.89313782328829!3d-8.042445771317583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18f40f752931%3A0x1ff141659b4417d5!2sHC2%20Engenharia!5e0!3m2!1spt-BR!2sbr!4v1690230420202!5m2!1spt-BR!2sbr" width="100%" height="500px" style="border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <!--Fim sessão contato-->
+    <footer class="footer" style="background-color:#dddddd;">
+        <div class="links">
+            <a href="https://instagram.com/epf_engenharia?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"> <i class="fab fa-instagram"></i> </a>
+            <a href="mailto:contato@epf.ind.br"> <i class="fa-regular fa-envelope"></i> </a>
+            <a href="https://www.google.com/maps/search/Rua+Dr.+Fernando+Allain,145+,+Espinheiro,+Recife+-+PE/@-8.0417866,-34.8914454,17z?entry=ttu"> <i class="fa-solid fa-location-dot"></i> </a>
+        </div>
+        <p>Desenvolvido por Thays Vithorya</p>
+    </footer>
+    <!--fim footer-->
 
     <script src="main.js"></script>
 </body>
