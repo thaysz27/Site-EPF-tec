@@ -15,7 +15,7 @@ Este projeto é um site expositivo desenvolvido para a empresa **EPF Engenharia 
 ## 🚀 **No ar**
 ### Disponível em:
    ```sh
-   https://www.epf.ind.br
+   https://www.epf.tec.br
    ```
 
 ## 🔧 **Manutenção**
